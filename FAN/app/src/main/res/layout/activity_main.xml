@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <SeekBar android:layout_width="286dp" android:layout_height="43dp" android:id="@+id/seekBar3" style="@style/Widget.AppCompat.SeekBar.Discrete" android:max="5" android:progress="0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.23"/>
+
+    <TextView android:layout_width="201dp" android:layout_height="139dp" android:id="@+id/textView2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintVertical_bias="0.383" android:textSize="40dp" android:gravity="center" app:layout_constraintTop_toBottomOf="@+id/seekBar3"/>
+
+</android.support.constraint.ConstraintLayout>
